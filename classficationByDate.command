@@ -30,7 +30,7 @@ function dateComp()
 for filePath in Photos/psd/*.psd; do
     # Delete generation date and time from psd file name
 	createDate=`exiftool -CreateDate $filePath`
-    # fileName=${filePath#*/}
+    
     fileName=`basename $filePath`
     
     # Delete Prefix 'Create Date:'
