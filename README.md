@@ -17,7 +17,7 @@ I tried to automate the place where I can automate to create an album for 100 da
 
 ### How to use
 1. Use Niji100.atn action to change resolution, aspect size (from JPG to PSD)
-1. Moving files from Photos / raw to Photos / psd with cpPsd.command
+1. Moving files from Photos / raw to Photos / psd with movPsd.command
 1. Distribute the PSD from the exif information in classficationByDate.command
 1. After all the work is done, execute psdToJpg.command. Jpg is written to Output
 1. Draft and complete
